@@ -16,8 +16,13 @@
                     $ultima_chave = array_key_last($dados);
                     
                     foreach ($dados as $coluna => $valor) {
-                        $colunas_inserir .= "{$coluna}, ";
-                        $valores_inserir .= "'{$valor}', ";                        
+                        if ($coluna != $ultima_chave) {
+                            $colunas_inserir .= "{$coluna}, ";
+                            $valores_inserir .= "'{$valor}', ";
+                        } else {                            
+                            $colunas_inserir .= "{$coluna}";
+                            $valores_inserir .= "'{$valor}'";
+                        }
                     }
                     
                     $colunas_inserir .= "status";
