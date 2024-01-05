@@ -1,6 +1,6 @@
 <footer class="footer d-flex justify-content-center" style="width: calc(100% - 60px); position: absolute; bottom: 0;">
     <div class=" container-fluid ">
-        <nav>
+        <!-- <nav>
             <ul>
             <li>
                 <a href="https://www.creative-tim.com">
@@ -18,12 +18,12 @@
                 </a>
             </li>
             </ul>
-        </nav>
+        </nav> -->
         
         <div class="copyright" id="copyright">
             &copy; <script>
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            </script>, Desenvolvido voluntariamente para obra de <b>DEUS</b>.
         </div>
     </div>
 </footer>

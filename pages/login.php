@@ -35,28 +35,25 @@
                                     <h3 class="card-title text-center"><b>Login</b></h3>
                                 </div>
 
-                                <div class="card-body">
-                                    <form>
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <form class="container col-12 col-md-6">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">E-mail</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            <label class="text-size-16 text-bold" for="login">E-mail</label>
+                                            <input type="email" class="form-control text-size-14" name="login" id="login" placeholder="Digite seu email">
                                         </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputPassword1">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                        </div>
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                Option one is this
-                                                <span class="form-check-sign">
-                                                    <span class="check"></span>
-                                                </span>
-                                            </label>
+                                        
+                                        <div class="form-group mt-4">
+                                            <label class="text-size-16 text-bold" for="senha">Senha</label>
+                                            <input type="password" class="form-control text-size-14" name="senha" id="senha" placeholder="Digite sua senha">
                                         </div>
 
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <div class="form-check">
+                                            <small><a href="../recupera_senha" class="text-bold">Esqueci minha senha</a></small>
+                                        </div>
+
+                                        <div class="form-group d-flex justify-content-center mt-3">
+                                            <input type="submit" class="btn btn-primary btn-round col-6 col-md-8 text-bold" name="entrar" value="ENTRAR">
+                                        </div>
                                     </form>
                                 </div>
                             </div>

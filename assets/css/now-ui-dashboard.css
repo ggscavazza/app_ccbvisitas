@@ -1,27 +1,3 @@
-/*!
-
- =========================================================
- * Now UI Dashboard - v1.5.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/now-ui-dashboard
- * Copyright 2019 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-/*      light colors         */
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -5988,4 +5964,36 @@ Created using IcoMoon - icomoon.io
   }
 }
 
-/*# sourceMappingURL=dashboard-free.css.map */
+/* CSS by CCB Volunteers Devs */
+.text-bold {
+  font-weight: bold !important;
+}
+
+.text-size-14 {
+  font-size: 14px !important;
+}
+
+.text-size-16 {
+  font-size: 16px !important;
+}
+
+.text-size-18 {
+  font-size: 18px !important;
+}
+
+.text-size-20 {
+  font-size: 20px !important;
+}
+
+.text-size-24 {
+  font-size: 24px !important;
+}
+
+.text-size-30 {
+  font-size: 30px !important;
+}
+
+.text-size-32 {
+  font-size: 32px !important;
+}
+/* END CSS by CCB Volunteers Devs */
